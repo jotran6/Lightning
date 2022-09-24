@@ -1,8 +1,11 @@
+PImage image;
 void setup(){
 background (#575658);
 size (500,500);
+image = loadImage("palpatine.jpg");
 }
 void draw(){
+  image(image,0,100);
   float x = 125; 
   float y = 200;
   float endX= x;
@@ -18,7 +21,3 @@ void draw(){
   y = endY;
  }
 }
-
-
-
-
