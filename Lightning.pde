@@ -2,7 +2,7 @@ PImage image;
 void setup(){
 background (#575658);
 size (500,500);
-image = loadImage("https://user-images.githubusercontent.com/111597183/192077107-34c61a20-8819-429b-a75d-e930dffbcc4f.jpg");
+image = loadImage(https://user-images.githubusercontent.com/111597183/192077107-34c61a20-8819-429b-a75d-e930dffbcc4f.jpg);
 }
 void draw(){
   image(image,0,100);
